@@ -52,6 +52,20 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica.
             - Structs (Estruturas)
             - Nullable Types (Tipos Nulos)
             */
+
+
+            /* Tipo byte e sbyte
+            - byte (8bits)
+            - 0 até 255
+            */
+            byte byteMaximo = 255;
+
+            /*
+            - sbyte (8bits)
+            - -128 até 127
+            */
+            sbyte byteMinimo = -128;
+            
         }
     }
 }
