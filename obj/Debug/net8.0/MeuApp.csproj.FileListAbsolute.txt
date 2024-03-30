@@ -12,3 +12,4 @@ C:\dev\C#\balta.io\MeuApp\obj\Debug\net8.0\refint\MeuApp.dll
 C:\dev\C#\balta.io\MeuApp\obj\Debug\net8.0\MeuApp.pdb
 C:\dev\C#\balta.io\MeuApp\obj\Debug\net8.0\MeuApp.genruntimeconfig.cache
 C:\dev\C#\balta.io\MeuApp\obj\Debug\net8.0\ref\MeuApp.dll
+C:\dev\C#\balta.io\MeuApp\obj\Debug\net8.0\MeuApp.sourcelink.json
