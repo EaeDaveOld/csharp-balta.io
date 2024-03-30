@@ -22,6 +22,13 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica.
             Console.WriteLine(IDADE_MINIMA);
             // const var IDADE_MAXIMA = 30; // Errado.
             // const var IDADE_MAXIMA; // Errado.
+
+
+
+            // Palavras reservadas ou Keywords.
+            // var, char, int, float, double, const.
+            // Não pode declarar variáveis e constantes com os nomes reservados pelo sistema
+            // int float = 23;  / Errado.
         }
     }
 }
