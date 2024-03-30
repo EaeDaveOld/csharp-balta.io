@@ -42,6 +42,16 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica.
                 linhas
             */
             /// Notação XML (Metadata)
+
+
+
+            // Tipos primitivos - built-in types.
+            /*
+            - Simple Types (Tipos Simples)
+            - Enums (Enumeradores)
+            - Structs (Estruturas)
+            - Nullable Types (Tipos Nulos)
+            */
         }
     }
 }
