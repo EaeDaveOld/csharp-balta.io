@@ -1,5 +1,5 @@
 ﻿using System;  // Importando uma biblioteca, já não se faz mais necessário importar o System, pois o .NET já faz isso por padrão.
-namespace MeuApp  // Declarando o "package".
+namespace MeuApp  // Declarando o "package" - Divisão lógica.
 {
     class Program  // Declarando a classe.
     {
