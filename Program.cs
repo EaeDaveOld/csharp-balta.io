@@ -1,6 +1,9 @@
 ﻿using System;  // Importando uma biblioteca, já não se faz mais necessário importar o System, pois o .NET já faz isso por padrão.
 namespace MeuApp  // Declarando o "package" - Divisão lógica.
 {
+    /// <summary>
+    /// Valor explicativo da minha classe.
+    /// </summary>
     class Program  // Declarando a classe.
     {
         static void Main(string[] args)  // Método principal, onde é executado o programa por padrão.
@@ -29,6 +32,16 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica.
             // var, char, int, float, double, const.
             // Não pode declarar variáveis e constantes com os nomes reservados pelo sistema
             // int float = 23;  / Errado.
+
+
+
+            // Comentários.
+            // Comentário em uma linha
+            /*
+                Comentário em várias
+                linhas
+            */
+            /// Notação XML (Metadata)
         }
     }
 }
