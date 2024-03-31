@@ -96,6 +96,33 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
             - ulong (64bits)
             - 0 até 18.446.744.073.709.551.615
             */
+
+
+
+            /*
+            Números Reais
+            - float (Notação F)
+            - double
+            - decimal (Notação M)
+
+            Definições:
+            - float (32bits)
+            - -3.402823e38 até 3.402823e38
+
+            - double (64bits)
+            - -1.79769313486232e308 até 1.79769313486232e308
+
+            - decimal (128bits)
+            - (+ ou -)1.0 x 10e-28 até 7.9 x 10e28
+
+            - Números que exigem uma maior precisão, ou seja, com pontuação
+            - Possuem assimilação negativa e positiva por padrão, dispensando uso do signed/unsigned em seus tipos
+            */
+
+            var salario = 2.500;  // O "var" vai dinamicamente atribuir um tipo double para a variável
+            double salarioDesejado = 4.500;  // Para o tipo double, não se faz necessário especificar um sufixo
+            float novoSalario = 3.000f;  // Para implicitamente declarar como float, deve-se atribuir o "f" ao final do número
+            decimal salarioAnual = 36.000m;  // Para implicitamente declarar como decimal, deve-se atribuir o "m" ao final do número
         }
     }
 }
