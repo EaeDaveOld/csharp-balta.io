@@ -170,6 +170,22 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
 
             string meuNome = "David";
             var documento = "Documento.PDF";
+
+
+
+            /*
+            Var
+            var idade = 22;  Será do tipo int
+            var nome = "David";  Será do tipo string
+            Definições:
+            - Substitui o nome de um tipo
+            - Será do tipo do primeiro valor atribuído
+            - Recomendado o uso
+            - Deixe para usar o var quando já dominar os tipos
+            */
+
+            // IEnumerable<MeuTipoComplexo> aluno = new IEnumerable<MeuTipoComplexo>();
+            // var aluno = new IEnumerable<MeuTipoComplexo>();
         }
     }
 }
