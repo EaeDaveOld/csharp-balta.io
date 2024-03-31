@@ -1,41 +1,41 @@
 ﻿using System;  // Importando uma biblioteca, já não se faz mais necessário importar o System, pois o .NET já faz isso por padrão.
-namespace MeuApp  // Declarando o "package" - Divisão lógica.
+namespace MeuApp  // Declarando o "package" - Divisão lógica
 {
     /// <summary>
-    /// Valor explicativo da minha classe.
+    /// Valor explicativo da minha classe
     /// </summary>
-    class Program  // Declarando a classe.
+    class Program  // Declarando a classe
     {
-        static void Main(string[] args)  // Método principal, onde é executado o programa por padrão.
+        static void Main(string[] args)  // Método principal, onde é executado o programa por padrão
         {
-            // Variáveis.
-            int idade;  // Correto, inicia com zero.
-            int anos = 22;  // Correto, inicia com 22.
-            var numero = 22;  // Correto, inicia com 22.
-            // var numero2;  // Errado.
+            // Variáveis
+            int idade;  // Correto, inicia com zero
+            int anos = 22;  // Correto, inicia com 22
+            var numero = 22;  // Correto, inicia com 22
+            // var numero2;  // Errado
             // Console.WriteLine(idade);
             Console.WriteLine(anos);
             Console.WriteLine(numero);
 
 
 
-            // Constantes.
-            // const int IDADE_MINIMA;  // Errado.
-            const int IDADE_MINIMA = 22;  // Correto, inicia com 22.
+            // Constantes
+            // const int IDADE_MINIMA;  // Errado
+            const int IDADE_MINIMA = 22;  // Correto, inicia com 22
             Console.WriteLine(IDADE_MINIMA);
-            // const var IDADE_MAXIMA = 30; // Errado.
-            // const var IDADE_MAXIMA; // Errado.
+            // const var IDADE_MAXIMA = 30; // Errado
+            // const var IDADE_MAXIMA; // Errado
 
 
 
-            // Palavras reservadas ou Keywords.
-            // var, char, int, float, double, const.
+            // Palavras reservadas ou Keywords
+            // var, char, int, float, double, const
             // Não pode declarar variáveis e constantes com os nomes reservados pelo sistema
-            // int float = 23;  / Errado.
+            // int float = 23;  / Errado
 
 
 
-            // Comentários.
+            // Comentários
             // Comentário em uma linha
             /*
                 Comentário em várias
@@ -45,7 +45,7 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica.
 
 
 
-            // Tipos primitivos - built-in types.
+            // Tipos primitivos - built-in types
             /*
             - Simple Types (Tipos Simples)
             - Enums (Enumeradores)
@@ -65,7 +65,37 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica.
             - -128 até 127
             */
             sbyte byteMinimo = -128;
-            
+
+
+
+            /*
+            Números Inteiros
+            - short/ushort
+            - int/uint
+            - long/ulong
+            - Assim como temos o signed nos bytes, nos números por padrão são permitidos valores negativos
+            - Então usamos o unsigned para definir que o mesmo não pode receber valores negativos
+            - O tipo int é o mais comum a ser encontrado
+
+            Definições:
+            - short (16bits)
+            - -32.768 até 32.767
+
+            - ushort (16bits)
+            - 0 até 65.535
+
+            - int (32bits)
+            - -2.147.483.648 até 2.147.483.647
+
+            - uint (32bits)
+            - 0 até 4.294.967.295
+
+            - long (64bits)
+            - -9.223.372.036.854.775.808 até 9.223.372.036.854.775.807
+
+            - ulong (64bits)
+            - 0 até 18.446.744.073.709.551.615
+            */
         }
     }
 }
