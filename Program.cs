@@ -155,6 +155,21 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
 
             char primeiraLetra = 'a';
             var segundaLetra = 'b';
+
+
+
+            /*
+            String
+            string (n bits)
+            Definições:
+            - Armazena uma cadeia de caracteres
+            - Podemos pensar nele como uma lista de char
+            - Definido pela palavra reservada string
+            - A atribuição de um valor string é dada por aspas duplas
+            */
+
+            string meuNome = "David";
+            var documento = "Documento.PDF";
         }
     }
 }
