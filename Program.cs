@@ -140,6 +140,21 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
             bool usuarioJaCadastrado = true;
             bool pagamentoRecebido = false;
             var usuarioExpirado = false;
+
+
+
+            /*
+            Char
+            - char (16bits)
+            Definições:
+            - Utilizado para armazenar apenas um caractere no formato Unicode
+            - Definido pela palavra reservada char
+            - A atribuição de um valor char é dada por aspas simples
+            - Qualquer caractere
+            */
+
+            char primeiraLetra = 'a';
+            var segundaLetra = 'b';
         }
     }
 }
