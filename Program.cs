@@ -123,6 +123,23 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
             double salarioDesejado = 4.500;  // Para o tipo double, não se faz necessário especificar um sufixo
             float novoSalario = 3.000f;  // Para implicitamente declarar como float, deve-se atribuir o "f" ao final do número
             decimal salarioAnual = 36.000m;  // Para implicitamente declarar como decimal, deve-se atribuir o "m" ao final do número
+
+
+
+            /*
+            Boolean
+            - true (verdadeiro)
+            - false (falso)
+
+            Definições:
+            - Definido pela palavra reservada bool
+            - bool (8bits)
+            - true ou false
+            */
+
+            bool usuarioJaCadastrado = true;
+            bool pagamentoRecebido = false;
+            var usuarioExpirado = false;
         }
     }
 }
