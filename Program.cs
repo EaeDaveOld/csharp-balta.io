@@ -227,6 +227,28 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
             System.Console.WriteLine(novaIdade);
             novaIdade = 22;  // E então passa a ser 22
             System.Console.WriteLine(novaIdade);
+
+            /*
+            Alias
+            Definições:
+            - Alias é um apelido que todo tipo no .NET tem
+            - Por exemplo
+             - System.String tem o alias string
+             - Vimos anteriormente os alias
+             - C# é Case Sensitive
+             - É recomendado sempre usar o alias
+             - No caso abaixo o resultado é o mesmo
+              - Com o alias escrevemos menos
+
+             string minhaString = "David" // Alias
+             System.String minhaString = "David" //Tipo
+            */
+
+            String minhaString = "Sou derivado de ";
+            Console.WriteLine(minhaString + minhaString.GetType());
+
+            System.Int16 inteiroShort = 5;  // Mesma coisa que: short inteiroShort = 5;
+            System.Console.WriteLine(inteiroShort.GetType());
         }
     }
 }
