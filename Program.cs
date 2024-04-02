@@ -186,6 +186,24 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
 
             // IEnumerable<MeuTipoComplexo> aluno = new IEnumerable<MeuTipoComplexo>();
             // var aluno = new IEnumerable<MeuTipoComplexo>();
+
+
+
+            /*
+            Object
+            object idade = 22;  / Será do tipo object
+            object nome = "David";  / Será do tipo object
+            Definições:
+            - Tipo genérico que recebe qualquer valor ou objeto
+            - Caso não saiba o tipo da informação ou ela seja de vários tipos diferentes
+            - Não possui intelisense (AJuda dos editores) por ser um tipo desconhecido
+            - Evite usar
+            */
+            object quantidade;
+            quantidade = 1;
+            quantidade = 2.5;
+            quantidade = "David";
+            System.Console.WriteLine(quantidade.GetType());
         }
     }
 }
