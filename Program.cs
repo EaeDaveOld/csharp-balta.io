@@ -249,6 +249,21 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
 
             System.Int16 inteiroShort = 5;  // Mesma coisa que: short inteiroShort = 5;
             System.Console.WriteLine(inteiroShort.GetType());
+
+
+
+            /*
+            Valores Padrões
+            Definições:
+            - Todo tipo built-in, já possui um valor padrão
+            - Se nenhum valor for informado, seu valor padrão será utilizado
+            - int => 0
+            - float => 0.0f
+            - decimal => 0.0m
+            - bool => false
+            - char => '\0'
+            - string => ""
+            */
         }
     }
 }
