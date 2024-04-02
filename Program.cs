@@ -204,6 +204,29 @@ namespace MeuApp  // Declarando o "package" - Divisão lógica
             quantidade = 2.5;
             quantidade = "David";
             System.Console.WriteLine(quantidade.GetType());
+
+
+
+            /*
+            Null
+            Definições:
+            - Significa vazio, nada
+            - Diferente de zero ou uma string vazia
+            - Todo tipo, primitivo ou complexo pode receber o valor null
+            - O tipo deve ser marcado como Nullable Type
+
+            - Podemos atribuir null a um objeto
+            - Desde que o mesmo seja marcado como nullable
+             - Usando a interrogação na frente do tipo
+            - Se uma chamada a um valor nulo for feita, um erro será apresentado
+            */
+
+            int? novaIdade = null;  // A variável recebe um valor null
+            System.Console.WriteLine(novaIdade);
+            novaIdade = 0;  // Depois é atribuído o valor 0
+            System.Console.WriteLine(novaIdade);
+            novaIdade = 22;  // E então passa a ser 22
+            System.Console.WriteLine(novaIdade);
         }
     }
 }
